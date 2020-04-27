@@ -4,23 +4,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Javascript + DOM</title>
+    <title>Shopping List - DOM Manipulation</title>
+    <script src="https://kit.fontawesome.com/cda2e117dd.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <h1>Shopping List</h1>
-    <p id="first">Get it done today</p>
-    <input id="userinput" type="text" placeholder="enter items">
-    <button id="enter">Enter</button>
-    <ul>
-        <li class=" bold red" random="23"> Notebook</li>
-        <li class="">Jello</li>
-        <li class="">Spinach</li>
-        <li class="">Rice</li>
-        <li class="">Birthday Cake</li>
-        <li class="">Candles</li>
-    </ul>
+    <div class="wrapper">
+        <header>
+            <h1>Shopping List</h1>
+            <p id="first">Get it done today !</p>
+        </header>
+        <input id="userinput" type="text" placeholder="enter items">
+        <button id="enter">Enter</button>
+        <button id="clear">Clear List</button>
+
+        <section>
+            <div class="flex-container">
+                <ul>
+                    <!-- <div class="li-wrapper">
+                        <li class="bold red" random="23"> Notebook</li>
+                    </div>
+                    <div class="li-wrapper">
+                        <li>Jello</li>
+                    </div>
+                    <div class="li-wrapper">
+                        <li>Birthday Cake</li>
+                    </div>
+                    <div class="li-wrapper">
+                        <li>Spinach</li>
+                    </div>
+                    <div class="li-wrapper">
+                        <li>Rice</li>
+                    </div>
+                    <div class="li-wrapper">
+                        <li>Candles</li>
+                    </div> -->
+                </ul>
+            </div>
+        </section>
+    </div>
     <script type="text/javascript" src="script.js"></script>
 </body>
 
